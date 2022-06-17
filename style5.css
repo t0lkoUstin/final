@@ -1,0 +1,126 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: rgb(41, 41, 41);
+    padding: 15px;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: -60px;
+    z-index: 2;
+}
+
+nav a {
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    user-select: none;
+}
+
+div {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: silver;
+    text-shadow: 0 1px 10px darkgray;
+    transition: 0.3s ease-out;
+}
+
+div.article {
+    background: no-repeat url("https://minecraftmain.ru/wp-content/uploads/2022/06/1-19-mangrove-underwater.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid rgb(61, 61, 61);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 60px;
+    filter: grayscale(1);
+}
+
+div.article2 {
+    background: no-repeat url("https://minecraftmain.ru/wp-content/uploads/2022/04/22w13oneblockatatime-04.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid rgb(61, 61, 61);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 60px;
+    filter: grayscale(1);
+}
+
+div.article3 {
+    background: no-repeat url("https://minecraftmain.ru/wp-content/uploads/2022/01/minecraft-preview.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid rgb(61, 61, 61);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 60px;
+    filter: grayscale(1);
+}
+
+p {
+    line-height: 19px;
+}
+
+nav a, div h1, div p, div a {
+    text-shadow: 0 1px 10px black;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+nav a:first-child {
+    margin-left: 300px;
+}
+
+nav a:last-child {
+    margin-right: 300px;
+}
+
+nav:hover {
+    top: 0px;
+    transition: 0.3s ease-out;
+}
+
+nav:not(:hover) {
+    top: -60px;
+    transition: 0.3s ease-out;
+}
+
+nav a:not(:hover) {
+    color: white;
+    text-shadow: 0 1px 10px black;
+    transition: 0.3s ease-out;
+}
+
+div:hover {
+    filter: grayscale(0);
+    transition: 0.6s ease;
+}
+
+div:not(:hover) {
+    filter: grayscale(1);
+    transition: 0.6s ease;
+}
+
+div h1 {
+    text-transform: uppercase;
+}
