@@ -1,0 +1,142 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: rgb(41, 41, 41);
+    padding: 15px;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: -60px;
+    z-index: 2;
+}
+
+nav a {
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    user-select: none;
+}
+
+div {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: silver;
+    text-shadow: 0 1px 10px darkgray;
+    transition: 0.3s ease-out;
+}
+
+div.hero {
+    background: no-repeat url("https://club.dns-shop.ru/api/v1/image/getOriginal/q93_add4309329bd9427d2ee0327f3275dea6dc9c4600375064671bdf494d9eae8d3.jpg/");
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid rgb(61, 61, 61);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 60px;
+    filter: grayscale(1);
+}
+
+.games {
+    color: black;
+    background-color: white;
+    margin-top: 60px;
+    border: 1px solid rgb(219, 219, 219);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.game img {
+    width: 30%;
+    height: 30%;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+div.game img:hover {
+    transform: scale(1.3);
+    transition: 1s ease-out;
+}
+
+div.game h1 {
+    color: green;
+}
+
+div.game h1:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 19px;
+}
+
+nav a, div.hero h1, div.hero p, div.hero a {
+    text-shadow: 0 1px 10px black;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+div.game {
+    display: table-cell;
+}
+
+div.game img {
+    filter: drop-shadow(0 0px 10px lightgreen);
+}
+
+nav a:first-child {
+    margin-left: 300px;
+}
+
+nav a:last-child {
+    margin-right: 300px;
+}
+
+nav:hover {
+    top: 0px;
+    transition: 0.3s ease-out;
+}
+
+nav:not(:hover) {
+    top: -60px;
+    transition: 0.3s ease-out;
+}
+
+nav a:not(:hover) {
+    color: white;
+    text-shadow: 0 1px 10px black;
+    transition: 0.3s ease-out;
+}
+
+div.game img:not(:hover) {
+    transform: scale(1);
+    transition: 1s ease-out;
+}
+
+div.hero:hover {
+    filter: grayscale(0);
+    transition: 0.6s ease;
+}
+
+div.hero:not(:hover) {
+    filter: grayscale(1);
+    transition: 0.6s ease;
+}
