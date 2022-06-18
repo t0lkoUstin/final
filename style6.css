@@ -88,16 +88,9 @@ div.buy a:hover {
 
 div.gamei img {
     border: 1px solid rgb(46, 46, 46);
-    margin-top: 60px;
     border-radius: 15px;
 }
 
-div.gamei img:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease;
-}
-
-div.gamei img:not(:hover) {
-    transform: scale(1);
-    transition: 0.3s ease;
+div.gamei {
+    margin-top: 60px;
 }
