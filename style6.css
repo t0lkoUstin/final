@@ -25,8 +25,6 @@ body {
     background-color: rgb(51, 51, 51);
     color: white;
     user-select: none;
-    z-index: 3;
-    position: relative;
 }
 
 div {
@@ -81,22 +79,6 @@ nav a:not(:hover) {
     color: white;
     text-shadow: 0 1px 10px black;
     transition: 0.3s ease-out;
-}
-
-div.dark:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 2;
-}
-
-div.buy {
-    position: relative;
-    z-index: 3;
 }
 
 div a:hover {
