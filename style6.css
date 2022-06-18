@@ -38,7 +38,7 @@ nav a:hover {
     transition: 0.3s ease-out;
 }
 
-div.dark {
+div.buy {
     background: no-repeat url("https://club.dns-shop.ru/api/v1/image/getOriginal/q93_add4309329bd9427d2ee0327f3275dea6dc9c4600375064671bdf494d9eae8d3.jpg/");
     background-position: center center;
     background-size: cover;
